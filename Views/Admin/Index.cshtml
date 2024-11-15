@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h1>Admin Dashboard</h1>
+<p>
+    Bienvenido, @User.Identity.Name
+</p>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>Usted ha ingresado con el rol de: <strong>Administrador</strong></p>
+}
+else if (User.IsInRole("Gestor"))
+{
+    <p>Usted ha ingresado con el rol de: <strong>Gestor</strong></p>
+}
+else if (User.IsInRole("Cliente"))
+{
+    <p>Usted ha ingresado con el rol de: <strong>Cliente</strong></p>
+}
+else
+{
+    <p>Usted ha ingresado con un rol desconocido.</p>
+}
