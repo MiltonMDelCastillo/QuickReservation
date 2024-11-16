@@ -4,22 +4,22 @@
 
 <h1>Admin Dashboard</h1>
 <p>
-    Bienvenido, @User.Identity.Name
+   Welcome, @User.Identity.Name
 </p>
 
 @if (User.IsInRole("Admin"))
 {
-    <p>Usted ha ingresado con el rol de: <strong>Administrador</strong></p>
+    <p>You have entered with the role of: <strong>Administrator</strong></p>
 }
-else if (User.IsInRole("Gestor"))
+else if (User.IsInRole("Manager"))
 {
-    <p>Usted ha ingresado con el rol de: <strong>Gestor</strong></p>
+    <p>You have entered with the role of: <strong>Manager</strong></p>
 }
-else if (User.IsInRole("Cliente"))
+else if (User.IsInRole("Customer"))
 {
-    <p>Usted ha ingresado con el rol de: <strong>Cliente</strong></p>
+    <p>You have entered with the role of: <strong>Customer</strong></p>
 }
 else
 {
-    <p>Usted ha ingresado con un rol desconocido.</p>
+    <p>You have logged in with an unknown role.</p>
 }

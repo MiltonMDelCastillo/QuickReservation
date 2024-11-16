@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-[Authorize(Roles = "Gestor")]
-public class GestorController : Controller
+[Authorize(Roles = "Manager")]
+public class ManagerController : Controller
 {
     public IActionResult Index()
     {

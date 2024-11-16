@@ -1,0 +1,16 @@
+﻿@model QuickReservation.Models.User
+
+<h1>Eliminar Usuario</h1>
+<div>
+    <h3>¿Estás seguro de que deseas eliminar este usuario?</h3>
+    <div>
+        <h4>@Model.Name</h4>
+        <p>@Model.Email</p>
+    </div>
+
+    <form asp-action="DeleteUserConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a href="@Url.Action("Users", "Admin")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

@@ -43,7 +43,7 @@ public class AccountController : Controller
             if (user.RoleId == 1)
                 return RedirectToAction("Index", "Admin");
             else if (user.RoleId == 2)
-                return RedirectToAction("Index", "Gestor");
+                return RedirectToAction("Index", "Manager");
             else if (user.RoleId == 3)
                 return RedirectToAction("Index", "Cliente");
         }
@@ -59,7 +59,7 @@ public class AccountController : Controller
         return roleId switch
         {
             1 => "Admin",
-            2 => "Gestor",
+            2 => "Manager",
             3 => "Cliente",
             _ => "Unknown"
         };
