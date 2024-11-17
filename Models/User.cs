@@ -11,5 +11,4 @@
         // Navegación
         public Role Role { get; set; }
     }
-
 }

@@ -1,22 +1,47 @@
+/* Ajuste de fuente global */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px; /* Aumenta el tamaño de fuente en pantallas más grandes */
+    }
 }
 
+/* Estilos de botones */
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* Añade un contorno azul claro cuando se enfoca */
 }
 
+/* Asegurar que el contenido no quede cubierto por el pie de página */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px; /* Espacio para el footer */
+}
+
+/* Estilos personalizados para la barra de navegación */
+.navbar-custom {
+    background-color: #007bff; /* Azul */
+}
+
+    .navbar-custom .nav-link,
+    .navbar-custom .navbar-brand {
+        color: #fff; /* Texto blanco */
+    }
+
+        .navbar-custom .nav-link:hover {
+            color: #cce5ff; /* Azul claro al pasar el mouse */
+        }
+
+/* Pie de página */
+.footer-custom {
+    background-color: #343a40; /* Gris oscuro */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }

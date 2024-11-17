@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc;
 using QuickReservation.Data;
-using System.Linq;
+using System.Security.Claims;
 
 public class AccountController : Controller
 {
@@ -23,15 +22,13 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult Login(string email, string password)
     {
-        // Buscar usuario en la base de datos
         var user = _context.Users.FirstOrDefault(u => u.Email == email && u.PasswordHash == password);
-
         if (user != null)
         {
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.Email),
-                new Claim(ClaimTypes.Role, GetRoleName(user.RoleId)) // Obtener el nombre del rol según el RoleId
+                new Claim(ClaimTypes.Role, GetRoleName(user.RoleId))
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -39,7 +36,6 @@ public class AccountController : Controller
 
             HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
-            // Redirigir según el rol
             if (user.RoleId == 1)
                 return RedirectToAction("Index", "Admin");
             else if (user.RoleId == 2)
@@ -48,21 +44,8 @@ public class AccountController : Controller
                 return RedirectToAction("Index", "Cliente");
         }
 
-        // Si el login falla
-        ViewBag.ErrorMessage = "Credenciales inválidas";
+        ViewBag.ErrorMessage = "Invalid credentials";
         return View();
-    }
-
-    private string GetRoleName(int roleId)
-    {
-        // Puedes usar una lógica más avanzada si tus roles están en otra tabla
-        return roleId switch
-        {
-            1 => "Admin",
-            2 => "Manager",
-            3 => "Cliente",
-            _ => "Unknown"
-        };
     }
 
     [HttpPost]
@@ -70,5 +53,16 @@ public class AccountController : Controller
     {
         HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         return RedirectToAction("Login");
+    }
+
+    private string GetRoleName(int roleId)
+    {
+        return roleId switch
+        {
+            1 => "Admin",
+            2 => "Manager",
+            3 => "Cliente",
+            _ => "Unknown"
+        };
     }
 }
