@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using QuickReservation.Data;
 using System.Security.Claims;
+using System.Linq;
+using System.Threading.Tasks;
 
 public class AccountController : Controller
 {
@@ -44,7 +46,7 @@ public class AccountController : Controller
                 return RedirectToAction("Index", "Cliente");
         }
 
-        ViewBag.ErrorMessage = "Invalid credentials";
+        ViewBag.ErrorMessage = "Credenciales inválidas";
         return View();
     }
 
@@ -62,7 +64,7 @@ public class AccountController : Controller
             1 => "Admin",
             2 => "Manager",
             3 => "Cliente",
-            _ => "Unknown"
+            _ => "Desconocido"
         };
     }
 }

@@ -1,15 +1,15 @@
 ﻿@model IEnumerable<QuickReservation.Models.User>
 
 <h1>Lista de Usuarios</h1>
-<a href="@Url.Action("CreateUser", "Admin")" class="btn btn-primary">Create New User</a>
+<a href="@Url.Action("CreateUser", "Admin")" class="btn btn-primary">Crear Nuevo Usuario</a>
 <table class="table">
     <thead>
         <tr>
             <th>ID</th>
-            <th>Name</th>
+            <th>Nombre</th>
             <th>Email</th>
-            <th>Role</th>
-            <th>Acctions</th>
+            <th>Rol</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -21,8 +21,8 @@
                 <td>@user.Email</td>
                 <td>@user.RoleId</td>
                 <td>
-                    <a href="@Url.Action("EditUser", "Admin", new { id = user.Id })" class="btn btn-warning">Edit</a>
-                    <a href="@Url.Action("DeleteUser", "Admin", new { id = user.Id })" class="btn btn-danger">Eliminate</a>
+                    <a href="@Url.Action("EditUser", "Admin", new { id = user.Id })" class="btn btn-warning">Editar</a>
+                    <a href="@Url.Action("DeleteUser", "Admin", new { id = user.Id })" class="btn btn-danger">Eliminar</a>
                 </td>
             </tr>
         }

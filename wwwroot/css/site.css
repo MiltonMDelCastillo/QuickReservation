@@ -10,9 +10,20 @@ html {
 }
 
 /* Estilos de botones */
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* Añade un contorno azul claro cuando se enfoca */
+.btn {
+    background-color: #9400D3; /* Violeta oscuro */
+    color: #fff;
+    border: none;
 }
+
+    .btn:hover {
+        background-color: #FF1493; /* Violeta más claro al pasar el mouse */
+        color: #fff;
+    }
+
+    .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #FF4500; /* Contorno rojo */
+    }
 
 /* Asegurar que el contenido no quede cubierto por el pie de página */
 html {
@@ -26,7 +37,7 @@ body {
 
 /* Estilos personalizados para la barra de navegación */
 .navbar-custom {
-    background-color: #007bff; /* Azul */
+    background-color: #8B0000; /* Rojo oscuro */
 }
 
     .navbar-custom .nav-link,
@@ -35,13 +46,51 @@ body {
     }
 
         .navbar-custom .nav-link:hover {
-            color: #cce5ff; /* Azul claro al pasar el mouse */
+            color: #FF69B4; /* Rosa fuerte al pasar el mouse */
         }
 
 /* Pie de página */
 .footer-custom {
-    background-color: #343a40; /* Gris oscuro */
+    background-color: #4B0082; /* Índigo */
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
+/* Estilo para el cuerpo de la página de Login */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9; /* Fondo suave */
+}
+
+/* Contenedor de Login */
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+}
+
+    .login-container h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .login-container .form-group {
+        margin-bottom: 15px;
+    }
+
+    .login-container .btn {
+        width: 100%;
+        background-color: #9400D3; /* Violeta */
+        border: none;
+    }
+
+        .login-container .btn:hover {
+            background-color: #7B68EE; /* Violeta más claro */
+        }

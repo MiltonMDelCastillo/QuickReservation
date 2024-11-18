@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7C/IfF5lY10ae72NVjVO8DyLgUZ2uCkEZfqNXP9KTBQ=",
+  "Hash": "GJzSaTO/KF0zcCNW9RpFvbaVCXqJJTktW0IuJBJ5+FM=",
   "Source": "QuickReservation",
   "BasePath": "_content/QuickReservation",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eam3ba28xr",
-      "Integrity": "lgaEuDIZ+KtWl6/1oQj0nj2LIZVlmyQS12cUEdj4gWw=",
+      "Fingerprint": "m8u87ams7t",
+      "Integrity": "FnpZeMox/2htDkMBxMJdNVTQsNs/LCDMN8LRm790RuM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\wwwroot\\images\\logo.png",
+      "SourceId": "QuickReservation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\wwwroot\\",
+      "BasePath": "_content/QuickReservation",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m6ug292ph4",
+      "Integrity": "Mp0tjwHAq5ainLr/z3UY0mhE1eoLENvvFEIqD94AEoU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\wwwroot\\js\\site.js",
@@ -1331,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1170"
+          "Value": "2259"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lgaEuDIZ+KtWl6/1oQj0nj2LIZVlmyQS12cUEdj4gWw=\""
+          "Value": "\"FnpZeMox/2htDkMBxMJdNVTQsNs/LCDMN8LRm790RuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 02:37:06 GMT"
+          "Value": "Mon, 18 Nov 2024 22:52:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,12 +1374,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lgaEuDIZ+KtWl6/1oQj0nj2LIZVlmyQS12cUEdj4gWw="
+          "Value": "sha256-FnpZeMox/2htDkMBxMJdNVTQsNs/LCDMN8LRm790RuM="
         }
       ]
     },
     {
-      "Route": "css/site.eam3ba28xr.css",
+      "Route": "css/site.m8u87ams7t.css",
       "AssetFile": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1368,7 +1389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1170"
+          "Value": "2259"
         },
         {
           "Name": "Content-Type",
@@ -1376,11 +1397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lgaEuDIZ+KtWl6/1oQj0nj2LIZVlmyQS12cUEdj4gWw=\""
+          "Value": "\"FnpZeMox/2htDkMBxMJdNVTQsNs/LCDMN8LRm790RuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 02:37:06 GMT"
+          "Value": "Mon, 18 Nov 2024 22:52:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1390,7 +1411,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eam3ba28xr"
+          "Value": "m8u87ams7t"
         },
         {
           "Name": "label",
@@ -1398,7 +1419,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lgaEuDIZ+KtWl6/1oQj0nj2LIZVlmyQS12cUEdj4gWw="
+          "Value": "sha256-FnpZeMox/2htDkMBxMJdNVTQsNs/LCDMN8LRm790RuM="
         }
       ]
     },
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.m6ug292ph4.png",
+      "AssetFile": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mp0tjwHAq5ainLr/z3UY0mhE1eoLENvvFEIqD94AEoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 23:04:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6ug292ph4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mp0tjwHAq5ainLr/z3UY0mhE1eoLENvvFEIqD94AEoU="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mp0tjwHAq5ainLr/z3UY0mhE1eoLENvvFEIqD94AEoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 23:04:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mp0tjwHAq5ainLr/z3UY0mhE1eoLENvvFEIqD94AEoU="
         }
       ]
     },

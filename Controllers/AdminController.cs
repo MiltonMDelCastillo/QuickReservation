@@ -15,7 +15,6 @@ public class AdminController : Controller
         _context = context;
     }
 
-    // Acción para listar usuarios
     public IActionResult Users()
     {
         var users = _context.Users.ToList();
@@ -27,13 +26,11 @@ public class AdminController : Controller
         return View();
     }
 
-    // Crear usuario - GET
     public IActionResult CreateUser()
     {
         return View();
     }
 
-    // Crear usuario - POST
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> CreateUser(User user)
@@ -42,12 +39,12 @@ public class AdminController : Controller
         {
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
-            TempData["Message"] = "User created successfully!";
+            TempData["Message"] = "Usuario creado exitosamente!";
             return RedirectToAction(nameof(Users));
         }
         return View(user);
     }
-    // Editar usuario - GET
+
     public IActionResult EditUser(int id)
     {
         var user = _context.Users.Find(id);
@@ -58,7 +55,6 @@ public class AdminController : Controller
         return View(user);
     }
 
-    // Editar usuario - POST
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> EditUser(User user)
@@ -67,13 +63,12 @@ public class AdminController : Controller
         {
             _context.Users.Update(user);
             await _context.SaveChangesAsync();
-            TempData["Message"] = "User updated successfully!";
+            TempData["Message"] = "Usuario actualizado exitosamente!";
             return RedirectToAction(nameof(Users));
         }
         return View(user);
     }
 
-    // Eliminar usuario - GET
     public IActionResult DeleteUser(int id)
     {
         var user = _context.Users.Find(id);
@@ -84,7 +79,6 @@ public class AdminController : Controller
         return View(user);
     }
 
-    // Eliminar usuario - POST
     [HttpPost, ActionName("DeleteUser")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteUserConfirmed(int id)
@@ -94,7 +88,7 @@ public class AdminController : Controller
         {
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
-            TempData["Message"] = "User deleted successfully!";
+            TempData["Message"] = "Usuario eliminado exitosamente!";
         }
         return RedirectToAction(nameof(Users));
     }
