@@ -17,73 +17,73 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuickReservation
 build_property.RootNamespace = QuickReservation
-build_property.ProjectDir = C:\Users\milde\Desktop\Proyecto-Final-web3\QuickReservation\
+build_property.ProjectDir = C:\Users\milde\Desktop\Proyecto-Final-web3\QuickReservation-3-interfaz-login-logo\QuickReservation\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\milde\Desktop\Proyecto-Final-web3\QuickReservation
+build_property.MSBuildProjectDirectory = C:\Users\milde\Desktop\Proyecto-Final-web3\QuickReservation-3-interfaz-login-logo\QuickReservation
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Account/Login.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Admin/CreateUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlVXNlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Admin/DeleteUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Admin/EditUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Admin/Index.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Admin/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Cliente/Index.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Home/Index.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Home/Privacy.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Manager/Index.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Manager/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Shared/Error.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/_ViewImports.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/User/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/User/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/User/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/_ViewStart.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation/Views/Shared/_Layout.cshtml]
+[C:/Users/milde/Desktop/Proyecto-Final-web3/QuickReservation-3-interfaz-login-logo/QuickReservation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xnwnaw4q9b

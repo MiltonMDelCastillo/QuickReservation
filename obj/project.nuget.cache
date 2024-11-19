@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+HalPWQyjjo=",
+  "dgSpecHash": "9SJ4qJw5RHA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\QuickReservation.csproj",
+  "projectFilePath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\QuickReservation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\milde\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\milde\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

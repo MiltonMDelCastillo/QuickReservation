@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\QuickReservation.csproj": {}
+    "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\QuickReservation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\QuickReservation.csproj": {
+    "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\QuickReservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\QuickReservation.csproj",
+        "projectUniqueName": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\QuickReservation.csproj",
         "projectName": "QuickReservation",
-        "projectPath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\QuickReservation.csproj",
+        "projectPath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\QuickReservation.csproj",
         "packagesPath": "C:\\Users\\milde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation\\obj\\",
+        "outputPath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

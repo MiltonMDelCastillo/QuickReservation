@@ -28,7 +28,8 @@
                         @if (User.IsInRole("Admin"))
                         {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Users">User List</a>
+                                <a href="@Url.Action("Users", "User")" class="btn btn-primary">User List</a>
+
                                 </li>
                         }
                         @if (User.IsInRole("Manager"))
