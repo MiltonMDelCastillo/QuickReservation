@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\user\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\user\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\user\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\user\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,36 +11,60 @@
       "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\models\\viewmodels\\userroleassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:models\\viewmodels\\userroleassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\models\\viewmodels\\userdategroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:models\\viewmodels\\userdategroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\user\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\user\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\data\\quickappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:data\\quickappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|c:\\users\\milde\\desktop\\proyecto-final-web3\\quickreservation-3-interfaz-login-logo\\quickreservation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A2E1417-E1E6-4795-9EDE-C05FB44BA0A2}|QuickReservation.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +74,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T00:50:59.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Users.cshtml",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\Users.cshtml",
+              "RelativeToolTip": "Views\\User\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T00:50:35.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:42:34.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\User\\EditUser.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T20:35:56.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:07:03.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T20:06:59.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRoleAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\ViewModels\\UserRoleAssignment.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\UserRoleAssignment.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\ViewModels\\UserRoleAssignment.cs",
+              "RelativeToolTip": "Models\\ViewModels\\UserRoleAssignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:54:58.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDateGroup.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\ViewModels\\UserDateGroup.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\UserDateGroup.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\ViewModels\\UserDateGroup.cs",
+              "RelativeToolTip": "Models\\ViewModels\\UserDateGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:54:12.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\CreateUser.cshtml",
+              "RelativeToolTip": "Views\\User\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T17:30:45.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:26:02.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -74,81 +206,60 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T01:38:43.353Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T17:20:03.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\CreateUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\CreateUser.cshtml",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\CreateUser.cshtml",
-              "RelativeToolTip": "Views\\User\\CreateUser.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T01:42:56.233Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:19:55.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\EditUser.cshtml",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\EditUser.cshtml",
-              "RelativeToolTip": "Views\\User\\EditUser.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T01:43:48.244Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:19:53.743Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeleteUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\DeleteUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\DeleteUser.cshtml",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\DeleteUser.cshtml",
-              "RelativeToolTip": "Views\\User\\DeleteUser.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T01:33:36.903Z",
-              "IsPinned": true,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:00:49.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
+              "Title": "QuickAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Data\\QuickAppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\QuickAppDbContext.cs",
+              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Data\\QuickAppDbContext.cs",
+              "RelativeToolTip": "Data\\QuickAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T01:13:44.55Z",
-              "IsPinned": true
+              "WhenOpened": "2024-11-19T16:59:50.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T16:10:11.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -156,86 +267,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T15:58:03.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:49:07.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:48:16.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:44:12.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:44:08.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\Users.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Users.cshtml",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\User\\Users.cshtml",
-              "RelativeToolTip": "Views\\User\\Users.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T15:39:46.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\milde\\Desktop\\Proyecto-Final-web3\\QuickReservation-3-interfaz-login-logo\\QuickReservation\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T15:39:02.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:58:09.558Z"
             }
           ]
         }

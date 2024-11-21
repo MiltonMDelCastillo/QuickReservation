@@ -1,12 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using QuickReservation.Data;
 using QuickReservation.Models;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
-[Authorize(Roles = "Admin")]
 public class UserController : Controller
 {
     private readonly QuickAppDbContext _context;
@@ -16,32 +12,21 @@ public class UserController : Controller
         _context = context;
     }
 
+    // Listar Usuarios
     public IActionResult Users()
     {
-        try
-        {
-            var users = _context.Users.ToList();
-            return View(users);
-        }
-        catch (Exception ex)
-        {
-            // Log the error (ex) here if needed
-            return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        var users = _context.Users.Include(u => u.Role).ToList(); // Incluye el rol asociado para mostrar si es necesario
+        return View(users);
     }
 
-
-    public IActionResult Index()
+    // Crear Usuario - GET
+    public IActionResult CreateUser()
     {
+        ViewBag.Roles = _context.Roles.ToList(); // Cargar roles para un dropdown en la vista, si es necesario
         return View();
     }
 
-    public IActionResult CreateUser()
-    {
-        return View(); // Buscará Views/User/CreateUser.cshtml de manera predeterminada
-    }
-
-
+    // Crear Usuario - POST
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> CreateUser(User user)
@@ -50,36 +35,63 @@ public class UserController : Controller
         {
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
-            TempData["Message"] = "Usuario creado exitosamente!";
+            TempData["Message"] = "¡Usuario creado exitosamente!";
             return RedirectToAction(nameof(Users));
         }
+
+        // Si el modelo no es válido, recarga la lista de roles
+        ViewBag.Roles = _context.Roles.ToList();
         return View(user);
     }
 
+    // Editar Usuario - GET
+    // Editar Usuario - GET
     public IActionResult EditUser(int id)
     {
-        var user = _context.Users.Find(id);
+        var user = _context.Users.Include(u => u.Role).FirstOrDefault(u => u.Id == id);
         if (user == null)
         {
             return NotFound();
         }
+        ViewBag.Roles = _context.Roles.ToList(); // Cargar roles para la edición
         return View(user);
     }
 
+
+    // Editar Usuario - POST
+    // Editar Usuario - POST
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> EditUser(User user)
     {
         if (ModelState.IsValid)
         {
-            _context.Users.Update(user);
-            await _context.SaveChangesAsync();
-            TempData["Message"] = "Usuario actualizado exitosamente!";
-            return RedirectToAction(nameof(Users));
+            var existingUser = _context.Users.FirstOrDefault(u => u.Id == user.Id);
+            if (existingUser != null)
+            {
+                // Actualizar propiedades
+                existingUser.Name = user.Name;
+                existingUser.Email = user.Email;
+                existingUser.PasswordHash = user.PasswordHash; // Cambia si es necesario
+                existingUser.RoleId = user.RoleId;
+
+                _context.Users.Update(existingUser);
+                await _context.SaveChangesAsync();
+                TempData["Message"] = "¡Usuario actualizado exitosamente!";
+                return RedirectToAction(nameof(Users));
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "El usuario no existe.");
+            }
         }
+
+        // Si hay errores, recargar la lista de roles
+        ViewBag.Roles = _context.Roles.ToList();
         return View(user);
     }
 
+    // Eliminar Usuario - GET
     public IActionResult DeleteUser(int id)
     {
         var user = _context.Users.Find(id);
@@ -90,6 +102,7 @@ public class UserController : Controller
         return View(user);
     }
 
+    // Eliminar Usuario - POST
     [HttpPost, ActionName("DeleteUser")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteUserConfirmed(int id)
@@ -99,7 +112,7 @@ public class UserController : Controller
         {
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
-            TempData["Message"] = "Usuario eliminado exitosamente!";
+            TempData["Message"] = "¡Usuario eliminado exitosamente!";
         }
         return RedirectToAction(nameof(Users));
     }
